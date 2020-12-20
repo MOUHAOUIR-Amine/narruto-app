@@ -4,7 +4,7 @@
   "license": "MIT",
   "scripts": {
     "postinstall": "ng build --aot --prod",
-    "heroku-postbuild":"ng build --prod",
+   
     "ng": "ng",
     "start": "node server.js",
     "build": "ng build",
@@ -52,6 +52,7 @@
     "typescript": "~4.0.2"
   },
   "engines": {
+    "express": "^4.17.1",
     "node": "12.16.2",
     "npm":"6.14.5"
   }
