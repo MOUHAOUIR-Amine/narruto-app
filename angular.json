@@ -127,5 +127,8 @@
       }
     }
   },
-  "defaultProject": "narruto-app"
+  "defaultProject": "narruto-app",
+  "cli": {
+    "analytics": "20b484c8-caba-44f3-8d66-c1a233d62e26"
+  }
 }
